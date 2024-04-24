@@ -1,0 +1,21 @@
+version 0.1.3
+
+Camera
+lookfrom 50 0 0
+lookat 0 0 0
+vup 0 1 0
+vfov 80
+aspect_ratio 16/9
+aperture 0.01
+focus_dist 10.0
+
+Material[Lambertian]
+id lamb_no_texture
+texture no
+albedo 0 0 0
+
+Sphere
+id lightsphere
+position 0 0 0
+material lamb_no_texture
+radius 0.1
